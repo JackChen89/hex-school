@@ -1,0 +1,317 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET */
+/* *{
+    outline: 1px solid black;
+} */
+
+body{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.FB{
+    text-decoration: none;
+    color: #4960a9;
+    font-size: 14px;
+    margin: 0px 4px;
+}
+.TW{
+    text-decoration: none;
+    color: #2d95c9;
+    font-size: 14px;
+    margin: 0px 4px;
+}
+
+.first{
+    background-color:#f6f6f6;
+    display:flex;
+    padding: 8px;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    color:#cbcbcb
+    
+}
+
+
+.first li{
+    display: flex;
+}
+
+.first img{
+    width: 14px;
+    height: 14px;
+    margin: 0px 0px 0px 4px;
+}
+
+.first a,.first p{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 a{
+    display: block;
+    width: 224px;
+    height: 50px;
+    background: url(images/logo.png);
+
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.links{
+    width:270px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.links a{
+    width: 90px;
+    color:#47b997;
+    text-decoration: none;
+    text-align: center;
+    padding:18px 0px;
+    border-bottom: 5px solid #ffffff;
+}
+
+
+.links a:hover{
+    border-bottom: 5px solid #47b997;
+    font-size: 16pt;
+}
+
+
+.banner{
+    padding: 93px 0px;
+    margin: 17px 0px;
+    background: url(images/banner.png);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.block{
+    width: 1000px;
+    height: 160px;
+    background: black;
+    opacity: 20%;
+    z-index: 1;
+}
+
+/* http://www.tastones.com/zh-tw/tutorial/css/css-opacity/ */
+
+.text{
+    color:white;
+    font-size: 32px;
+    position: absolute;
+    top: 0px;
+    margin: 125px 20px;
+    z-index: 2;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+
+.classes{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.class{
+    height: 340px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* outline: 1px solid black; */
+    box-shadow: 2px 2px 5px rgba(95, 95, 95, 0.7);
+}
+
+.class img{
+    padding: 6px 0px;
+}
+
+.class h2{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.class p,.class ol{
+    width: 265px;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+
+.diff{
+    /* outline: solid 1px black; */
+    display: flex;
+    padding: 40px 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.diff *{
+    margin:15px 80px;
+}
+
+.diff h3{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.diff table td,.diff table th{
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+    padding: 10px 20px;
+}
+
+.diff table th{
+    background-color: #f7f7f7;
+    text-align: left;
+    font-weight: bold;
+}
+
+.diff table .spec{
+    color:#47b997;
+    font-weight: bold;
+}
+
+.contact{
+    margin: 30px 0px;
+    background: url(images/foot.png);
+    
+}
+
+.contact h3{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+    padding:30px 0px 10px 0px;
+    font-weight: bold;
+}
+
+form{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+form *{
+    margin: 5px 10px;
+    padding: 0px;
+}
+
+form .ipcontent textarea{
+    border: none;
+    border-radius: 3px;
+    width: 440px;
+    height: 220px;
+    padding: 10px 10px;
+}
+
+form .ipinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+form .ipinfo input{
+    width: 460px;
+    height: 30px;
+    padding: 2px 10px;
+}
+
+form .ipinfo *{
+    border: none;
+    border-radius: 3px;
+}
+
+form .ipinfo .submit{
+    width: 70px;
+    color: white;
+    background: #00cc98;
+    align-self: flex-end;
+    margin: 10px;
+
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px
+}
+
+.contactinfo{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.contactinfo span{
+    color: #ed267c;
+}
